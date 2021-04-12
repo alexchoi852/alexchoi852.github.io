@@ -1,6 +1,6 @@
 body {
     font-family: 'Varela', sans-serif;
-    background-color: rgba(92, 151, 206, 0.425);
+    background-color: rgba(36, 77, 211, 0.425);
 }
 
 h1 { 
@@ -22,13 +22,6 @@ footer {
 }
 
 
-.topnav li.a, li, .rightnav {
-	float: none;
-	list-style-type: none;
-	overflow: hidden;
-	background-color: rgb(173, 95, 59);
-}  
-
 li a {
     display: block;
     color: white;
@@ -36,9 +29,18 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+
+.topnav li.a, li, .rightnav {
+	float: none;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: rgb(10, 2, 2);
+}  
+
   
 li a:hover:not(.active), a:focus:not(.active), .active {
-	color: rgb(36, 36, 36);
+	color: rgb(2, 2, 19);
     background-color: whitesmoke;
 }
 
@@ -104,7 +106,7 @@ h2 {
 }
 
 .pic {
-	width: 90%;
+	width: 70%;
 	margin: 5%;
 }
 
@@ -118,10 +120,12 @@ h2 {
 	width: 80%;
 }
 
-#standing {
-	display: block;
+.standing {
+	display: none;
 	margin: 3%;	
 	padding: 3%;
+	height: 200px;
+	width: 300px;
 }
 
 @media only screen and (min-width: 530px) {
@@ -162,7 +166,7 @@ h2 {
 		width: 90%;
 	}
 	.paragraphs {
-		width: 70vh;
+		width: 70%;
 	}
 }
 
